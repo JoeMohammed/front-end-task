@@ -1,0 +1,50 @@
+/* ====================================== _____________ Reset Styles _____________ ====================================== */
+* {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+html{
+    font-size: 100%;
+    @include for_phone() {
+        font-size: 85%;
+    }
+    @include for_miniTb() {
+        font-size: 88%;
+    }
+    @include for_tablet() {
+        font-size: 90%;
+    }
+    @include for_miniLt() {
+        font-size: 95%;
+    }
+    @include for_labtop() {
+        font-size: 100%;
+    }
+    overflow-x: hidden;
+}
+
+body{
+    font-size: $mainFont;
+    font-weight: 400;
+    font-family: $englishFont;
+    overflow-x: hidden;
+    &.ar{
+        font-family: $arabicFont;
+        direction: rtl;
+        text-align: right;
+    }
+}
+
+/* ====================================== _____________ Reset Styles _____________ ====================================== */

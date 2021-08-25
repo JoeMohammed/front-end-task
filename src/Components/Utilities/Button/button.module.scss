@@ -1,0 +1,13 @@
+@import "../../../sass/utilities/variables";
+
+.Button{
+    padding: 9px 20px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: transparent;
+    outline: none;
+    transition: $transition ease-in-out;
+    &:hover{
+         background-color: $mainColor;
+    }
+}

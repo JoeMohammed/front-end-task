@@ -1,0 +1,11 @@
+@import "../../../sass/utilities/variables";
+
+.Outlink{
+    color: $textColor;
+    font-size: .95rem;
+    transition: $transition;
+    &:hover{
+        text-decoration: underline;
+        color: $mainColor;
+    }
+}

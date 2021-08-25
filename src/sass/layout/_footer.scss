@@ -1,0 +1,43 @@
+/* ====================================== _____________ Footer Styles _____________ ====================================== */
+footer {
+    //  This Code Just For First
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+  // ___________ Footer
+  .footer {
+    padding: 50px 0;
+    background-color: $blkColor;
+    &_brandLogo{
+        text-align: center;
+        &_img{
+            margin-bottom: 15px;
+        }
+        &_text{
+            color: $whtColor;
+            margin-bottom: 0;
+        }
+    }
+  }
+
+  // ____________ Copyright
+  .copyright {
+    text-align: center;
+    padding: 8px 0;
+    border-top: 1px solid rgba($color: $textColor, $alpha: 0.4);
+    p {
+      color: $textColor;
+      margin-bottom: 0;
+      a {
+        transition: $transition;
+        margin-bottom: 0;
+        &:hover {
+          color: $mainColor;
+        }
+      }
+    }
+  }
+}
+/* ====================================== _____________ Footer Styles _____________ ====================================== */

@@ -1,0 +1,35 @@
+@import '../../sass/utilities/variables';
+
+.Navbar{
+    background-color: $offColor;
+    padding: 10px 0;
+    &_brandLogo{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: $mainColor;
+        margin-bottom: 0;
+        &:hover{ 
+            color: $mainColor;
+        }
+    }
+    &_list{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        &_item{
+            margin-bottom: 0;
+            &_link{
+                padding: 0 12px;
+                font-size: 1rem;
+                font-weight: 400;
+                color: $blkColor;
+                transition: $transition;
+                margin-bottom: 0;
+                &:hover{
+                    color: $mainColor;
+                }
+            }
+        }
+    }
+}
